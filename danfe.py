@@ -45,4 +45,5 @@ def ler_xml_servico(documento):
         'nome_comprou': nome_comprou,
         'lista_produtos': [(produtos,)],
     }
+    return resposta
    
