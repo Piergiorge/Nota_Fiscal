@@ -43,7 +43,7 @@ def ler_xml_servico(documento):
         'nome_vendeu': nome_vendeu,
         'cpf_comprou': cpf_comprou,
         'nome_comprou': nome_comprou,
-        'lista_produtos': [(produtos,)],
+        'lista_produtos' = [(prod['prod']['xProd'], prod['prod']['vProd']) for prod in produtos]
     }
     return resposta
    
