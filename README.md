@@ -13,7 +13,7 @@ Dicionário Python com os elementos do arquivo XML.
 Esta função recebe como argumento o dicionário Python retornado pela função ler_arquivo_xml() referente a um arquivo XML de NFe (Nota Fiscal Eletrônica) e retorna um dicionário contendo informações da nota fiscal.
 
 ## Argumentos
-*documento: dicionário Python retornado pela função ler_arquivo_xml() referente a um arquivo XML de NFe.
+* documento: dicionário Python retornado pela função ler_arquivo_xml() referente a um arquivo XML de NFe.
 ## Retorno
 Dicionário contendo as seguintes informações da nota fiscal:
 * valor_total: valor total da nota fiscal;
